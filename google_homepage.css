@@ -83,20 +83,6 @@ a:hover {
    cursor: pointer;
 }
 
-.share-icon {
-    position: absolute;
-    display: inline-block;
-    top: 14.9vw;
-    right: 33.8vw;
-    opacity: 80%;
-    vertical-align: bottom;
-    cursor: pointer;
-}
-
-.share-icon:hover {
-    opacity: 100%;
-}
-
 input {
     width: 34vw;
     height: 40px;
@@ -195,10 +181,6 @@ input:hover, input:focus {
         height: 30px;
         margin-top: 5px;
     }    
-    .share-icon {
-        right: 12vw;
-        top: 42vw;
-    }
     .advertising, .business, .howto, .carbon, .privacy, .terms, .settings {
         font-size: 8px;
         margin: 0%;
