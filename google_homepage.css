@@ -139,6 +139,7 @@ input:hover, input:focus {
 .youtube-a {
     display: flex;
     align-items: center;
+    padding-bottom: 60px;
 }
 .youtube-p {
     color: rgb(26, 13, 171);
@@ -165,7 +166,7 @@ input:hover, input:focus {
     position: fixed;
     width: 100%;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.041);
+    background-color: #f2f2f2;
     height: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.102);
 }
@@ -213,5 +214,8 @@ input:hover, input:focus {
         background-size: 4vw;
         padding: 0 7%;
         width: 60%;
+    }
+    .youtube-a {
+        padding-bottom: 10px;
     }
 }
